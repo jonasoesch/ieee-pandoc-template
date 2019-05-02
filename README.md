@@ -1,11 +1,12 @@
 # IEEE Paper Template for Pandoc
 
-[![Build Status](https://travis-ci.org/stsewd/ieee-pandoc-template.svg?branch=master)](https://travis-ci.org/stsewd/ieee-pandoc-template)
+Based 
 
 ## Requirements
 
 - [Pandoc](http://pandoc.org/)
 - [Texlive](https://www.tug.org/texlive/)
+
 
 ### Ubuntu
 
@@ -20,7 +21,19 @@ sudo apt install pandoc pandoc-citeproc texlive-full
 sudo dnf install pandoc pandoc-citeproc texlive-scheme-full
 ```
 
-## Quickly Usage
+### macOS
+
+Using [Homebrew](https://brew.sh/):
+
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install pandoc
+brew install pandoc-citeproc
+brew cask install mactex
+```
+
+
+## How to use
 
 - Clone or download this repo.
 - Put all your paper content in `paper.md`.
@@ -44,9 +57,11 @@ sudo dnf install pandoc pandoc-citeproc texlive-scheme-full
 
 ### Editors
 
+- [Typora](https://typora.io/)
 - [Vim](http://vim.org)/[Neovim](https://neovim.io/) + [vim-pandoc extension](https://github.com/vim-pandoc/vim-pandoc)
 - [Atom](http://atom.io) + [language-pfm extension](https://atom.io/packages/language-pfm) + [autocomplete-bibtex extension](https://atom.io/packages/autocomplete-bibtex)
 
 ### Bibliography manager
 
+- [Papers for Mac](https://www.papersapp.com/)
 - [Zotero](https://www.zotero.org/) + [Better Bibtext extension](https://github.com/retorquere/zotero-better-bibtex)

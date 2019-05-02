@@ -1,21 +1,20 @@
 ---
-title: 'Paper Title'
+title: 'Lost in transition'
 author:
-  - name: Santos Gallegos
-    affiliation: Universidad de Cuenca
-    location: Cuenca, Ecuador
-    email: santos_g@email.com
+  - name: Jonas Oesch
+    affilation: University of applied sciences of North-Western Switzerland
+    location: Windisch, Switzerland
+    email: jonas.oesch@fhnw.ch
 keywords:
-  - one
-  - two
-  - three
+  - animation
+  - narrative visualization
+  - storytelling
 numbersections: yes
+# http://denten.plaintext.in/think.stack/pandoc
 lang: en
 babel-lang: english
 abstract: |
-  This is the abstract.
-
-  It consists of two paragraphs.
-
+    Narrative visualization is a recent topic of research that explores the potential of storytelling techniques to help readers understand complex visualizations resulting from complex datasets. Transitions are an essential part of any narrative visualization and carry information that is not inherent in the states themselves but rather in their sequence. Transitions can imply different types of information, a property narrative visualization shares with other media like movies or comics. When designing transitions, the goal is to reduce the transition cost or cognitive load of the reader. One of the proposed methods to reduce the transition cost is animation. But the use of animation in these cases has proven difficult as it needs to ensure congruence as well as apprehension. Congruence means that there is a correspondence between what is being presented and how it is presented. Apprehension means respecting the readers perceptional and mental limitations. We have created a framework to rapidly generate experiments that help explore the apprehension of different types of transitions and different means for reducing the transition cost; especially animation.
+    
 ...
 
